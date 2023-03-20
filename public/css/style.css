@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+header {
+  padding: 10px;
+  background-color: #9AADBD;
+  color: #EFF0F5;
+}
+
+footer {
+  background-color: #5B6E81;
+}
+
+.page1 {
+  background-color: #9AADBD;
+  height: 70vh;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  min-width: 775px;
+}
+
+.formulary {
+  background-color: #EFF0F5;
+  min-width: 100%;
+}
+
+.page2 {
+  background-color: #F3F4F5;
+  height: 70vh;
+  width: 100%;
+}
+
+.page3 {
+  background-color: #ccd3d8;
+  height: 70vh;
+  width: 100%;
+}
+
+.page4 {
+  background-color: #F3F4F5;
+  height: 70vh;
+  width: 100%;
+}
+
+.page5 {
+  background-color: #9AADBD;
+  height: 70vh;
+  width: 100%;
+}
+
+.headline {
+  text-align: center;
+  align-content: center;
+}
+
+.input {
+  width: 40vh;
+  height: 40px;
+  min-height: 35px;
+  padding: 1px 0 1px 15px;
+  color: #5B6E81;
+  background-color: #F3F4F5;
+}
+
+.input-g {
+  height: 23vh !important;
+}
+
+.input::-moz-placeholder {
+  color: #5B6E81;
+}
+
+.input::placeholder {
+  color: #5B6E81;
+}/*# sourceMappingURL=style.css.map */

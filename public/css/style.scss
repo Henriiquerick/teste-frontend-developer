@@ -1,0 +1,88 @@
+$white1: #EFF0F5;
+$white2: #F3F4F5;
+$white3: #FFFFFF;
+$grey1: #5B6E81;
+$grey2: #9AADBD;
+$grey3: #ccd3d8;
+$heigh: 70vh;
+$width: 100%;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $white3;
+}
+
+header{
+    padding: 10px;
+    background-color: $grey2;
+    color: $white1
+}
+
+footer{
+    background-color: $grey1;
+}
+
+.page1{
+    background-color: $grey2;
+    height: $heigh;
+    width: $width;
+    padding: 10px;
+    display: flex;
+    min-width: 775px;
+}
+
+.formulary{
+    background-color: $white1;
+    min-width: 100%;
+}
+
+.page2{
+    background-color: $white2;
+    height: $heigh;
+    width: $width;
+}
+
+.page3{
+    background-color: $grey3;
+    height: $heigh;
+    width: $width;
+}
+
+.page4{
+    background-color: $white2;
+    height: $heigh;
+    width: $width;
+}
+
+.page5{
+    background-color: $grey2;
+    height: $heigh;
+    width: $width;
+}
+
+.headline{
+    text-align: center;
+    align-content: center;
+}
+
+.input{
+    width: 40vh;
+    height: 40px;
+    min-height: 35px;
+    padding: 1px 0 1px 15px;
+    color: $grey1;
+    background-color: $white2;
+}
+
+.input-g{
+    height: 23vh !important;
+}
+
+.input::placeholder{
+    color: $grey1;
+}
